@@ -1,0 +1,273 @@
+/* Font Family Links*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+/*Full Body*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat-Bold';
+}
+
+/* Navigation Header */
+
+li,a,button{
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: 300px;
+    font-size: 25px;
+    color:aliceblue;
+    text-decoration: none;
+}
+.header{
+    background-color: rgb(254, 57, 57);
+    padding: 50px 140px;
+}
+.header1{
+    font-size: 40px;
+}
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.navcl{
+    color:hsl(356, 23%, 99%, 0.6);
+}
+.nav-links{
+    list-style:none;
+    margin-right: 100px;
+    color:hsl(356, 23%, 99%, 0.1);
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover{
+    color:hsl(356, 23%, 99%, 1.0);
+}
+
+
+.big-heading{
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+   align-items: "center";
+   font-size: 80px;
+   font-weight: bolder;
+   line-height: 1.5;
+}
+
+.dogs-daily{
+   margin-top: 50px;
+}
+
+
+
+.iphone-image{
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+    transform: rotate(25deg);
+    position: relative;
+    bottom: 370px;
+    right:200px;
+    
+}
+.container-image{
+    padding-bottom: 70px;
+}
+
+.heart{
+    height: 70px;
+    width: 70px;
+    background: rgb(201, 85, 85);
+    transform: rotate(-45deg);
+    top:-50%;
+    
+}
+
+
+
+.heart:hover{
+background: rgb(248, 9, 9);
+}
+.heart:before:after{
+    background: rgb(248, 9, 9);
+}
+.heart:before:hover{
+    background: rgb(248, 9, 9);
+}
+
+#features {
+    /* To make sure the image is hidden*/
+    position: relative;
+}
+.white-section {
+    background-color: #fff;
+    
+}
+
+
+
+.feature-title {
+    font-size: 50px;
+    font-weight: bold;
+}
+.feature.name{
+    font-size: 50px;
+
+}
+
+.feature-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 200px;
+}
+
+/* Testimonials Style */
+.testimonial{
+    margin-bottom: 70px;
+    background-color: #ef8172;
+    justify-items: center;
+    align-items: center;
+    margin: auto;
+    padding: 150px 460px;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text {
+    font-size: 2.0rem;
+    line-height: 1.0;
+}
+
+/* Logo Images */
+.logo-image{
+    background-color: #ef8172;
+}
+.image{
+    margin-left: 50px;
+}
+/* Pricing*/
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.paragraph-heading{
+    text-align: center;
+}
+
+/* Borders and Text*/
+
+.first-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 75px;
+    margin-left: 130px;
+    background-color: rgb(244, 239, 239);
+}
+.price-text {
+    font-size: 40px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.firstbig-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 355px;
+    margin-left: 130px;
+}
+
+.p-class{
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.button-signup{
+    margin-left: 38.5%;
+    margin-top: 10%;
+    color: black;
+}
+
+.button-color{
+    color: black;
+}
+
+.second-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 75px;
+    margin-left: 130px;
+    background-color: rgb(244, 239, 239);
+   
+}
+.secondbig-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 355px;
+    margin-left: 130px;
+    
+}
+
+.third-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 75px;
+    margin-left: 130px;
+    
+    background-color: rgb(244, 239, 239);
+}
+.thirdbig-border{
+    border: 1px solid rgb(242, 232, 232);
+    width: 25.3%;
+    height: 355px;
+    margin-left: 130px;
+    
+}
+
+.border{
+    margin:auto;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.container-ending{
+    background-color: rgb(248, 9, 9);
+}
+
+.big-button{
+    color: black;
+    margin-left: 30px;
+    align-items: center;
+}
+
+.social-icons{
+    size: 70px;
+    align-items: center;
+    margin-left: 100px;
+}
